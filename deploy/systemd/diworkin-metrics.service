@@ -1,0 +1,15 @@
+[Unit]
+Description=Diworkin panel API
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/opt/diworkin-metrics/bin/diworkin-metrics
+Restart=always
+RestartSec=2
+EnvironmentFile=/etc/diworkin-panel/panel.env
+User=root
+
+[Install]
+WantedBy=multi-user.target
+

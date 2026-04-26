@@ -1,0 +1,12 @@
+node_modules/
+dist/
+out/
+.next/
+coverage/
+*.log
+.env
+.env.*
+!installer/config.env.example
+installer/config.env
+*.zip
+
