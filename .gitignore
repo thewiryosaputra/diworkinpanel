@@ -6,7 +6,8 @@ coverage/
 *.log
 .env
 .env.*
+!apps/marketing/.env.example
+!backend/metrics/.env.example
 !installer/config.env.example
 installer/config.env
 *.zip
-
